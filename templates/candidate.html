@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Candidate</title>
+    <link rel="stylesheet" type="text/css">
+</head>
+    <body>
+        <h1>{{ candidate.name }}</h1>
+        <p>{{ candidate.position }}</p>
+        <img src="{{ url_for(candidate.picture) }}" width=200/>
+        <p>{{ candidate.skills }}</p>
+    </body>
+</html>
